@@ -2,12 +2,14 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Toolbar from './components/Toolbar'
 import MyStatus from './components/MyStatus'
+import FeedTextItem from './components/FeedTextItem'
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Toolbar/>
-        <MyStatus/>
+        <Toolbar />
+        <MyStatus />
+        <FeedTextItem/>
       </View>
     );
   }

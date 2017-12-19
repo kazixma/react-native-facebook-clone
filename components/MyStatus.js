@@ -22,8 +22,10 @@ const styles = StyleSheet.create({
   image: {
     height: 50,
     width: 50,
-    borderRadius: 20,
-    marginLeft: 10
+    borderRadius: 25,
+    marginLeft: 10,
+    borderWidth: 2,
+    borderColor: '#BDBDBD'
   },
   text: {
     fontSize: 16,
